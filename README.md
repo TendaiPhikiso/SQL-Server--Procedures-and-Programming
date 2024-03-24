@@ -19,7 +19,7 @@ BEGIN
 		FilmName ASC
 END
 
--- Modify store procedure | Use ALTER 
+-- Modify stored procedure | Use ALTER 
 ALTER PROCEDURE spFilmList 
 AS
 BEGIN
@@ -33,7 +33,7 @@ BEGIN
 		FilmName DESC
 END
 
--- Deleting a store procedure 
+-- Deleting a stored procedure 
 DROP PROC spFilmList
 
 /* Adding parameters*/
